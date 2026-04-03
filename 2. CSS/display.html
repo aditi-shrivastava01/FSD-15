@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- bootstrap se bhi lga skte -->
-    <link 
+    <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
@@ -18,11 +18,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      /* star(*) mtlb universal selector 
+      margin:0 krne se margin 0 hojaegi
+      (display: inline) se para continous m hojaengy agr alg alg h to */
       * {
-        font-family: Arial, Helvetica, sans-serif;
+        margin:0
+        /* font-family: Arial, Helvetica, sans-serif;
         font-size: larger;
         font-weight: 900;
-        font-style: italic;
+        font-style: italic; */
       }
       .cities {
         display: flex;
@@ -40,16 +44,23 @@
   </head>
   <body>
     <p>
+      <button>
       <span class="material-symbols-outlined"> delete </span>
       <span class="material-symbols-outlined"> favorite </span>
       <span class="material-symbols-outlined"> share </span>
+      <span class="material-symbols-outlined"> search </span>
+      </button>
     </p>
-    <div class="cities">
+    <div class="cities"> 
+      <!-- div act as container-compile time faster -->
       <h1>bhopal</h1>
       <h2>indore</h2>
       <h3>gwalior</h3>
       <h4>ujjain</h4>
-      
+
+      <h1>Display</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius alias qui.</p>
+      <span>Lorem ipsum dolor sit amet.</span>
     </div>
   </body>
 </html>

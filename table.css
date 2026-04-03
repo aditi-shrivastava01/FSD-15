@@ -1,0 +1,25 @@
+table, th, td{
+    /* USING EXTERNAL CSS */
+    border: 2px solid black;
+    border-collapse: collapse; 
+    border-color: brown;
+    /* border-width: 10px; */
+    /* border-radius: 90px; cant work for this*/
+}
+table{
+    /* border-bottom-left-radius: 10px; */
+    border-width: 5px;
+    /* display: none;  isse table gayab hojatii*/
+}
+
+    /* for border at heading
+th{
+    border: 1px solid #000;
+    border-style: c;
+} 
+td{
+    /* for border at data 
+    border: 1px solid black;
+}
+     */
+
