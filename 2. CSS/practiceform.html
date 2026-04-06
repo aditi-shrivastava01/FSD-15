@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+    
+
+</head>
+<style>
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: beige; */
+        margin: 0%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form{
+        background-color: rgba(243, 206, 218, 0.178);
+        padding: 20px;
+        box-shadow: 0 0 10px 0 rgb(68, 6, 6);
+    }
+
+    button{
+        color: #e40909;
+    }
+    input, label{
+       margin: 5px;
+    }
+
+</style>
+<body>
+    
+    <div>
+    <form >
+        <h1>Registration Form</h1>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter Username..."><br>
+
+        <label>City:</label>
+        <input type="text" placeholder="Enter city name..."><br>
+        <label>DoB:</label>
+        <input type="date" placeholder="date"><br>
+
+        <label>Gender:</label>
+        <label>male</label>
+        <input type="radio" name="gender" value="male">
+        <label>female</label>
+        <input type="radio" name="gender" value="female">
+        <label>other</label>
+        <input type="radio" name="gender" value="other"><br>
+
+        <label>Age: </label>
+        <input type="range" placeholder="Enter age..."><br>
+
+        <label>E-mail: </label>
+        <input type="email" placeholder="Enter email..."><br>
+
+        <label>Password: </label>
+        <input type="password" placeholder="Enter password..."><br>
+<!-- ek aur hota hai break ke alawa "hr" tag pr vo line bana deta hai -->
+
+        <button > Register </button>
+    </form>
+    </div>
+
+    
+</body>
+</html>
