@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        .image{
+
+            height: 100vh;
+            background-color: rgb(193, 173, 173);
+        }
+
+        #img3{
+            top: 40px;
+/* sirf third image ko neeche krna hai to Aae krengy */
+        }
+
+        #img2{
+            position: sticky;
+            top: 0px;
+            /* bottom: 20px;
+            top: 0px; */
+            /* current window ke andr jbtk parent hai tbtk sticky rahega  */
+
+        }
+        #img4{
+            position: fixed;
+            /* bottom: 20px; */
+        }
+        #box{
+            height: 1000px;
+            background-color: rgb(17, 221, 221);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img height="250px" width="150px" src="https://cdn.pixabay.com/photo/2016/11/21/06/53/beautiful-natural-image-1844362_640.jpg"> 
+        <img id="img2" height="250px" width="150px" src="https://cdn.pixabay.com/photo/2016/11/21/06/53/beautiful-natural-image-1844362_640.jpg"> 
+        <img id="img3" height="250px" width="150px" src="https://cdn.pixabay.com/photo/2016/11/21/06/53/beautiful-natural-image-1844362_640.jpg"> 
+        <img id="img4" height="250px" width="150px" src="https://cdn.pixabay.com/photo/2016/11/21/06/53/beautiful-natural-image-1844362_640.jpg"> 
+    </div>
+    <div id="box">
+
+    </div>
+</body>
+</html>
