@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            height: 150px;
+            width: 150px;
+            margin: 0%;
+            border: 1px solid black;
+        }
+        .box1{
+            position: absolute;
+            background-color: red;
+            top: 80px;
+            left: 50px;
+            z-index: -100;
+        }
+        .box2{
+            position: absolute;
+            background-color: green;
+            top: 100px;
+            left: 70px;
+            z-index: 1;
+        }
+        .box3{
+            position: absolute;
+            background-color: blue;
+            top: 120px;
+            left: 90px;
+            z-index: 100;
+        }
+        .box4{
+            position: absolute;
+            background-color: yellow;
+            top: 140px;
+            left: 110px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>
+
+<!-- jo tareeka we use to apply the item at centre aur agr position absolute hai toh centre mai nahi ayega toh by left and right se hi push krke usko centre mai lana padhega qki absolute ka parent element ni haii -->
