@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div > p{
+            background-color: rgb(16, 176, 120);
+        }
+        section + p {
+            background-color: rgb(150, 103, 40);
+        }
+        article ~ p{
+            background-color: blue;
+        }
+        /* decenders ">"  (mtlb jitne bhi div ke child h usme colour chnge hoga),
+         "+" agr ye lagaye to section ke just baad wala m colour ayega,
+         "~" MATLAB USKE mtlb article BAAD KE SAARE M COLOR AJAEGA */
+    </style>
+</head>
+<body>
+    <div>
+        <p>"DIV" Lorem ipsum dolor sit amet.</p>
+        <p>"DIV" Lorem ipsum dolor sit amet.</p>
+        <p>"DIV" Lorem ipsum dolor sit amet.</p>
+    </div>
+    <section>
+        <p>"SECTION" Lorem ipsum dolor sit amet.</p>
+        <p>"SECTION" Lorem ipsum dolor sit amet.</p>
+        <p>"SECTION" Lorem ipsum dolor sit amet.</p>
+    </section>
+        <p> Lorem ipsum dolor sit amet.</p>
+        <p> Lorem ipsum dolor sit amet.</p>
+        <p> Lorem ipsum dolor sit amet.</p>
+
+    <article>
+        <p>"ARTICLE" Lorem ipsum dolor sit amet.</p>
+        <p>"ARTICLE" Lorem ipsum dolor sit amet.</p>
+        <p>"ARTICLE" Lorem ipsum dolor sit amet.</p>
+    </article>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>

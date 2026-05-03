@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: "Times New Roman", Times, serif;
+    }
+    body {
+      height: 100vh;
+    }
+    .header {
+      background-color: grey;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .main {
+      min-height: calc(100vh - 119px);
+      display: flex;
+    }
+    .footer {
+      background-color: grey;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    /* sidebarblock */
+    .sidebar {
+      background-color: rgb(12, 12, 12);
+      width: 20%;
+      color: beige;
+    }
+    .item { 
+      background-color: rgb(47, 49, 49);
+      margin: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+    .item:hover {
+      background-color: rgba(211, 211, 211, 0.378);
+    }
+    /* content block */
+    .content {
+      background-color: rgb(29, 27, 27);
+      color: #cfb41b;
+      width: 70%;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      padding: 20px;
+      justify-content: center;
+    }
+    .courses{
+      color: #f7f8f5;
+        text-align: center;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    /* card block */
+      .card {
+        border: 1px solid rgb(61, 58, 58);
+        border-radius: 7px;
+        overflow: hidden;
+      }
+      .card:hover {
+        border-color: rgba(182, 182, 182, 0.585);
+        box-shadow: 0 16px 40px rgba(85, 88, 87, 0.322);
+      }
+      .card-img {
+        width: 100%;
+        background: #171c29;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        overflow: hidden;
+      }
+      .card-body {
+        padding: 14px 16px;
+        border-top: 1px solid rgba(46, 36, 36, 0.09);
+      }
+    .card img {
+      height: 166px;
+      width: 200px;
+      gap: 10px;
+    }
+    /* ads block */
+    .ads {
+      background-color:rgb(12, 12, 12) ;
+      width: 10%;
+    }
+   
+    
+    
+  </style>
+  <body>
+    <div class="header">header</div>
+    <div class="main">
+        <!-- sidebarblock -->
+      <div class="sidebar">
+        <div class="item">HTML</div>
+        <div class="item">CSS</div>
+        <div class="item">JS</div>
+        <div class="item">NodeJS</div>
+        <div class="item">Express</div>
+        <div class="item">MongoDb</div>
+        <div class="item">NextJS</div>
+        <div class="item">NestJS</div>
+        <div class="item">NustJS</div>
+      </div>
+      <!-- content block -->
+      <div class="content">
+        <div class="course-heading">
+            <h1>Our Courses</h1>
+        </div>
+
+        <div class="courses">
+            <!-- 1 -->
+            <div class="card">
+                <div class="class-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" >
+                </div>
+                <div class="card-body">
+                    <div class="card-title"> HTML </div>
+                </div>
+            </div>
+            <!-- 2 -->
+             <div class="card">
+                <div class="class-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/960px-CSS3_logo_and_wordmark.svg.png" >
+                </div>
+                <div class="card-body">
+                    <div class="card-title"> CSS </div>
+                </div>
+            </div>
+            <!-- 3 -->
+             <div class="card">
+                <div class="class-img">
+                    <img src="https://repository-images.githubusercontent.com/539560750/278d0bbf-6aaf-4f38-a18f-e328305bcd7b">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">JavaScript </div>
+                </div>
+            </div>
+            <!-- 4 -->
+             <div class="card">
+                <div class="class-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3kaToY5NaeW3ZXVmFgQCeV9mJaoO9Tki-5g&s">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Node.js </div>
+                </div>
+            </div>
+            <!-- 5 -->
+             <div class="card">
+                <div class="class-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s">
+                </div>
+                <div class="card-body">
+                    <div class="card-title"> Express Framework </div>
+                </div>
+            </div>
+            <!-- 6 -->
+             <div class="card">
+                <div class="class-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFNy-aRKl7FQ2G_Ceyhyua0-ta1Uzp4JWbQ&s">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">MongoDB </div>
+                </div>
+            </div>
+            <!-- 7 -->
+             <div class="card">
+                <div class="class-img">
+                    <img src="https://cdn.shopaccino.com/igmguru/products/nextjs-training-191888688644054_l.jpg?v=547">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Next.js </div>
+                </div>
+            </div>
+            <!-- 8 -->
+             <div class="card">
+                <div class="class-img">
+                    <img src="https://miro.medium.com/1*s9kgU8F1eB7Tzs7sG0YhBg.jpeg">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Nest.js </div>
+                </div>
+            </div>
+
+        </div>
+        
+      </div>
+      <!-- ads block -->
+      <div class="ads">ads</div>
+    </div>
+    <!-- footer blocl+k -->
+    <div class="footer">footer</div>
+  </body>
+</html>

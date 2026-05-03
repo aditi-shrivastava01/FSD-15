@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            display: none;
+        }
+        button:hover + p{
+            display: block;
+        }
+        img:hover + p{
+            display: block;
+        }
+         /* "+" is used to select the immediate sibling of the element. In this case, when you hover over the button, the adjacent paragraph (p) will be displayed. Similarly, when you hover over the image (img), the adjacent paragraph (p) will also be displayed. */
+         /* This technique is often used to create interactive effects on web pages, such as showing additional information or changing the appearance of elements when they are hovered over. */
+    </style>
+</head>
+<body>
+    <button>HELLO</button>
+    <p>Hello i am aditi</p>
+
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0kr5b5sxYqLRQuDCVEoJM4yJhAsNSWK2xVg&s"> -->
+</body>
+</html>
