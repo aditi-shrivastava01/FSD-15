@@ -67,6 +67,7 @@
 // console.log(myself);
 
 //ek aur case banta hai bracket notation ka kisi property ko variable bana ke store krna hai
+
 // let target = "full Name"
 // // console.log(myself.target); //isse undefined ayega
 // console.log(myself[target]);
